@@ -1,0 +1,1127 @@
+
+### **Weeks 1-2: Introduction to Azure & Basic Services**
+
+#### **Day 1: Introduction to Cloud Computing and Azure**
+- **Learn**:
+  - What is cloud computing? Understand IaaS, PaaS, and SaaS.
+  - Overview of Microsoft Azure and its global infrastructure.
+  - Familiarize yourself with the Azure Portal interface.
+- **Hands-On**:
+  - Sign up for a free Azure account if you don’t have one.
+  - Explore the Azure portal, navigating through various services and the dashboard.
+- **Resources**:
+  - [Azure Fundamentals - Microsoft Learn](https://docs.microsoft.com/en-us/learn/paths/azure-fundamentals/)
+
+#### **Day 2: Understanding Azure Regions, Availability Zones, and Resource Groups**
+- **Learn**:
+  - Concepts of Azure regions, Availability Zones, and how they affect deployment and redundancy.
+  - Introduction to Resource Groups: what they are and how to organize resources.
+- **Hands-On**:
+  - Create a new Resource Group in the Azure portal.
+  - Understand the significance of selecting different regions when creating resources.
+- **Resources**:
+  - [Manage Azure Regions and Availability Zones](https://docs.microsoft.com/en-us/learn/modules/intro-to-azure-fundamentals/)
+
+#### **Day 3: Azure Billing and Cost Management**
+- **Learn**:
+  - Understand Azure pricing models and cost management tools.
+  - Learn how to set up budgets, alerts, and monitor your Azure spending.
+- **Hands-On**:
+  - Set up billing alerts in your Azure portal to monitor costs.
+  - Explore the Azure pricing calculator and estimate costs for different services.
+- **Resources**:
+  - [Azure Cost Management and Billing](https://docs.microsoft.com/en-us/learn/modules/manage-costs-and-billing/)
+
+#### **Day 4: Creating Your First Virtual Machine (Linux)**
+- **Learn**:
+  - Basics of Virtual Machines (VMs): what they are and use cases.
+  - Differences between VM sizes and regions.
+- **Hands-On**:
+  - Create a Linux VM (e.g., Ubuntu) in Azure.
+  - Connect to your VM using SSH and explore basic Linux commands.
+- **Resources**:
+  - [Create a Linux VM in Azure](https://docs.microsoft.com/en-us/learn/modules/create-linux-virtual-machine-in-azure/)
+
+#### **Day 5: Creating Your First Virtual Machine (Windows)**
+- **Learn**:
+  - Understanding Windows-based VMs.
+  - Networking concepts: Public IP, VNet, and NSG.
+- **Hands-On**:
+  - Create a Windows Server VM in Azure.
+  - Connect to the VM using Remote Desktop Protocol (RDP).
+  - Install IIS and configure a basic web server.
+- **Resources**:
+  - [Create a Windows VM in Azure](https://docs.microsoft.com/en-us/learn/modules/create-windows-virtual-machine-in-azure/)
+
+#### **Day 6: Managing Virtual Machines**
+- **Learn**:
+  - VM scaling: resizing VMs, understanding reserved instances.
+  - VM availability: Availability Sets and Zones.
+- **Hands-On**:
+  - Resize your VM to a different size.
+  - Set up an Availability Set for your VM.
+  - Explore auto-shutdown and backup options.
+- **Resources**:
+  - [Manage Azure Virtual Machines](https://docs.microsoft.com/en-us/azure/virtual-machines/)
+
+#### **Day 7: Introduction to Azure Storage**
+- **Learn**:
+  - Overview of Azure Storage services: Blob, File, Disk, and Queue Storage.
+  - Storage tiers (Hot, Cool, Archive) and redundancy (LRS, GRS, ZRS).
+- **Hands-On**:
+  - Create a Blob Storage account.
+  - Upload files to Blob Storage and explore access tiers.
+  - Set up a File Share and map it to your Windows VM.
+- **Resources**:
+  - [Introduction to Azure Storage](https://docs.microsoft.com/en-us/learn/modules/intro-to-azure-storage/)
+
+#### **Day 8: Deep Dive into Blob Storage**
+- **Learn**:
+  - Detailed study of Blob Storage: containers, blobs, and lifecycle management.
+  - Explore advanced features like Soft Delete and Blob Snapshots.
+- **Hands-On**:
+  - Create multiple containers within your Blob Storage account.
+  - Implement lifecycle management rules for automatic tiering.
+  - Enable Soft Delete and test recovery.
+- **Resources**:
+  - [Azure Blob Storage Documentation](https://docs.microsoft.com/en-us/azure/storage/blobs/)
+
+#### **Day 9: Azure Disk and File Storage**
+- **Learn**:
+  - Differences between Managed Disks, Unmanaged Disks, and Ultra Disks.
+  - Azure File Sync and its use cases.
+- **Hands-On**:
+  - Attach a Managed Disk to your existing VM.
+  - Configure Azure File Sync to synchronize files between your server and Azure File Storage.
+- **Resources**:
+  - [Use Azure Disk Storage](https://docs.microsoft.com/en-us/azure/virtual-machines/windows/managed-disks-overview)
+
+#### **Day 10: Introduction to Azure Networking**
+- **Learn**:
+  - Basics of Azure Networking: VNets, Subnets, and Virtual Network Peering.
+  - Network Security Groups (NSGs) and their role in network security.
+- **Hands-On**:
+  - Create a VNet with multiple subnets.
+  - Deploy VMs into different subnets and establish communication between them.
+  - Configure NSGs to control traffic between subnets.
+- **Resources**:
+  - [Introduction to Azure Networking](https://docs.microsoft.com/en-us/learn/modules/intro-to-azure-networking/)
+
+#### **Day 11: Advanced Networking - VNet Peering and VPN Gateway**
+- **Learn**:
+  - VNet Peering: connecting VNets across regions.
+  - VPN Gateway: secure communication with on-premises networks.
+- **Hands-On**:
+  - Set up VNet Peering between two VNets in different regions.
+  - Deploy a VPN Gateway and connect it to an on-premises network (simulated).
+- **Resources**:
+  - [Azure VNet Peering Documentation](https://docs.microsoft.com/en-us/azure/virtual-network/virtual-network-peering-overview)
+
+#### **Day 12: Load Balancing and Traffic Management**
+- **Learn**:
+  - Azure Load Balancer: distributing traffic across VMs.
+  - Traffic Manager: routing traffic based on performance, geography, or priority.
+- **Hands-On**:
+  - Set up a Load Balancer to distribute traffic between two VMs.
+  - Configure Traffic Manager to route traffic between different Azure regions.
+- **Resources**:
+  - [Azure Load Balancer Documentation](https://docs.microsoft.com/en-us/azure/load-balancer/)
+
+#### **Day 13: Introduction to Azure DNS and Custom Domains**
+- **Learn**:
+  - Azure DNS: managing DNS records for your applications.
+  - Custom domains and SSL/TLS certificates.
+- **Hands-On**:
+  - Create a DNS zone in Azure DNS.
+  - Add custom DNS records (A, CNAME, MX) to the zone.
+  - Set up a custom domain for your Azure-hosted website and secure it with an SSL certificate.
+- **Resources**:
+  - [Azure DNS Documentation](https://docs.microsoft.com/en-us/azure/dns/)
+
+#### **Day 14: Review and Hands-On Lab**
+- **Task**:
+  - Review the concepts and skills learned in the past two weeks.
+  - Complete a hands-on lab that covers VM creation, networking, and storage.
+- **Hands-On**:
+  - Design and deploy a small web application infrastructure using Azure VMs, VNets, and Storage.
+  - Document the architecture and resource configurations.
+- **Resources**:
+  - [Azure Hands-On Labs](https://docs.microsoft.com/en-us/learn/browse/?products=azure)
+
+---
+
+### **Weeks 3-4: Security, Identity, & Access Management**
+
+#### **Day 15: Introduction to Azure Active Directory (AD)**
+- **Learn**:
+  - Azure AD: understanding the role of identity management in the cloud.
+  - Overview of users, groups, and roles.
+- **Hands-On**:
+  - Set up an Azure AD instance.
+  - Create users and groups.
+  - Assign roles to users and groups.
+- **Resources**:
+  - [Manage Identities with Azure AD](https://docs.microsoft.com/en-us/learn/modules/manage-identities/)
+
+#### **Day 16: Single Sign-On (SSO) and Multi-Factor Authentication (MFA)**
+- **Learn**:
+  - Basics of Single Sign-On (SSO) and its benefits.
+  - Implementing Multi-Factor Authentication (MFA) for enhanced security.
+- **Hands-On**:
+  - Enable SSO for an application using Azure AD.
+  - Configure MFA for your Azure AD users.
+- **Resources**:
+  - [Secure your identity with Azure AD](https://docs.microsoft.com/en-us/learn/modules/secure-your-identity/)
+
+#### **Day 17: Managing Access with Role-Based Access Control (RBAC)**
+- **Learn**:
+  - Role-Based Access Control (RBAC): assigning permissions and managing access to Azure resources.
+  - Built-in roles vs. custom roles.
+- **Hands-On**:
+  - Assign built-in roles to users and groups.
+  - Create and assign a custom role for specific tasks.
+- **Resources**:
+  - [Control access with RBAC](https://docs.microsoft.com/en-us/learn/modules
+
+### **Weeks 3-4: Security, Identity, & Access Management (Continued)**
+
+#### **Day 18: Introduction to Azure Key Vault**
+- **Learn**:
+  - Understand Azure Key Vault: managing secrets, keys, and certificates.
+  - Importance of securing application secrets and access credentials.
+- **Hands-On**:
+  - Create an Azure Key Vault.
+  - Store and retrieve a secret using the Azure portal and CLI.
+  - Configure Key Vault access policies.
+- **Resources**:
+  - [Secure and Manage Secrets with Azure Key Vault](https://docs.microsoft.com/en-us/learn/modules/secure-and-manage-secrets-with-azure-key-vault/)
+
+#### **Day 19: Working with Azure Managed Identities**
+- **Learn**:
+  - Concept of Managed Identities: simplifying access to Azure services without managing credentials.
+  - System-assigned vs. user-assigned managed identities.
+- **Hands-On**:
+  - Enable a managed identity for a VM.
+  - Grant the managed identity access to a Key Vault.
+  - Use the managed identity to retrieve secrets programmatically.
+- **Resources**:
+  - [Use Managed Identities for Azure Resources](https://docs.microsoft.com/en-us/learn/modules/managed-identities/)
+
+#### **Day 20: Implementing Azure Policies**
+- **Learn**:
+  - Azure Policy: enforcing organizational standards and assessing compliance.
+  - Understanding built-in policies, policy assignments, and initiatives.
+- **Hands-On**:
+  - Create and assign a policy to enforce tagging of resources.
+  - Implement a policy to restrict VM sizes within a subscription.
+  - Audit resources for compliance using the Azure Policy dashboard.
+- **Resources**:
+  - [Implement Policies with Azure Policy](https://docs.microsoft.com/en-us/learn/modules/create-manage-policies/)
+
+#### **Day 21: Using Azure Blueprints**
+- **Learn**:
+  - Introduction to Azure Blueprints: managing deployments with predefined templates.
+  - Combining ARM templates, policies, and role assignments into a blueprint.
+- **Hands-On**:
+  - Create an Azure Blueprint.
+  - Assign the blueprint to a subscription and deploy resources.
+  - Monitor compliance and updates through the blueprint management interface.
+- **Resources**:
+  - [Deploy Resources Using Azure Blueprints](https://docs.microsoft.com/en-us/learn/modules/implement-blueprints/)
+
+#### **Day 22: Introduction to Azure Security Center**
+- **Learn**:
+  - Overview of Azure Security Center: unified security management.
+  - Understanding security recommendations, secure score, and regulatory compliance.
+- **Hands-On**:
+  - Enable Azure Security Center on your subscription.
+  - Review and implement security recommendations.
+  - Set up alerts and notifications for critical security issues.
+- **Resources**:
+  - [Secure Your Cloud Resources with Azure Security Center](https://docs.microsoft.com/en-us/learn/modules/secure-your-cloud-resources/)
+
+#### **Day 23: Using Azure Defender**
+- **Learn**:
+  - Introduction to Azure Defender: threat protection for Azure workloads.
+  - Exploring protection for VMs, databases, storage, and more.
+- **Hands-On**:
+  - Enable Azure Defender for your subscription.
+  - Simulate a security threat (e.g., SQL injection) and review Azure Defender’s response.
+  - Configure automated responses to detected threats.
+- **Resources**:
+  - [Protect Your Resources with Azure Defender](https://docs.microsoft.com/en-us/learn/modules/protect-resources-azure-defender/)
+
+#### **Day 24: Implementing Azure Firewall**
+- **Learn**:
+  - Azure Firewall: network security management across multiple subscriptions.
+  - Configuring firewall rules, NAT, and logging.
+- **Hands-On**:
+  - Deploy Azure Firewall in your VNet.
+  - Set up firewall rules to control inbound and outbound traffic.
+  - Monitor and analyze firewall logs.
+- **Resources**:
+  - [Azure Firewall Documentation](https://docs.microsoft.com/en-us/azure/firewall/)
+
+#### **Day 25: Introduction to Azure Bastion**
+- **Learn**:
+  - Azure Bastion: secure and seamless RDP/SSH access to VMs without exposing public IPs.
+  - Integrating Bastion with your VNets for enhanced security.
+- **Hands-On**:
+  - Deploy Azure Bastion in a VNet.
+  - Connect to a VM using Azure Bastion.
+  - Explore Bastion's security features and best practices.
+- **Resources**:
+  - [Securely Access VMs with Azure Bastion](https://docs.microsoft.com/en-us/learn/modules/securely-access-vms-with-azure-bastion/)
+
+#### **Day 26: Introduction to Azure Application Gateway**
+- **Learn**:
+  - Azure Application Gateway: load balancing and web application firewall (WAF).
+  - Routing traffic, SSL termination, and managing web traffic.
+- **Hands-On**:
+  - Deploy an Azure Application Gateway.
+  - Configure routing rules and SSL termination.
+  - Enable and test the Web Application Firewall (WAF).
+- **Resources**:
+  - [Load Balance Web Apps with Azure Application Gateway](https://docs.microsoft.com/en-us/learn/modules/load-balance-web-applications/)
+
+#### **Day 27: Review and Practical Lab**
+- **Task**:
+  - Review security concepts and services learned over the past week.
+  - Implement a comprehensive security architecture using Azure AD, Key Vault, and Azure Security Center.
+- **Hands-On**:
+  - Create a secure multi-tier application architecture.
+  - Document and review your setup to ensure all security best practices are followed.
+- **Resources**:
+  - [Azure Security Best Practices](https://docs.microsoft.com/en-us/azure/security/)
+
+#### **Day 28: Deep Dive Lab on Identity and Security**
+- **Task**:
+  - Combine all identity and security concepts into a single lab project.
+  - Create a secure application with managed identities, Azure AD, and Azure Key Vault integration.
+- **Hands-On**:
+  - Build and secure a web application with Azure AD authentication, using managed identities for API access, and secure the app secrets with Azure Key Vault.
+- **Resources**:
+  - [Azure Architecture Center](https://docs.microsoft.com/en-us/azure/architecture/)
+
+---
+
+### **Weeks 5-6: Automation & Infrastructure as Code (IaC)**
+
+#### **Day 29: Introduction to Infrastructure as Code (IaC) with ARM Templates**
+- **Learn**:
+  - ARM Templates: declarative JSON templates for deploying Azure resources.
+  - Structure of ARM templates: parameters, variables, resources, and outputs.
+- **Hands-On**:
+  - Create and deploy a simple ARM template to provision a VM and storage account.
+  - Experiment with template parameters and outputs.
+- **Resources**:
+  - [Deploy Resources with ARM Templates](https://docs.microsoft.com/en-us/learn/modules/deploy-resources-with-arm-templates/)
+
+#### **Day 30: Advanced ARM Template Techniques**
+- **Learn**:
+  - Advanced features of ARM templates: nested templates, conditions, and loops.
+  - Managing dependencies and using linked templates.
+- **Hands-On**:
+  - Create a nested ARM template to deploy a multi-tier application.
+  - Implement conditions and loops within your template.
+  - Explore deployment options: incremental vs. complete mode.
+- **Resources**:
+  - [ARM Templates Best Practices](https://docs.microsoft.com/en-us/azure/azure-resource-manager/templates/best-practices)
+
+#### **Day 31: Introduction to Terraform for Azure**
+- **Learn**:
+  - Terraform basics: infrastructure as code, providers, state management.
+  - Setting up Terraform for Azure: installing the CLI, initializing a project.
+- **Hands-On**:
+  - Install Terraform and configure it for Azure.
+  - Write and deploy a simple Terraform script to create an Azure Resource Group.
+  - Explore Terraform commands: `plan`, `apply`, `destroy`.
+- **Resources**:
+  - [Terraform Azure Provider](https://registry.terraform.io/providers/hashicorp/azurerm/latest/docs)
+
+#### **Day 32: Working with Terraform Modules**
+- **Learn**:
+  - Terraform modules: creating reusable infrastructure components.
+  - Understanding input variables, output values, and modules.
+- **Hands-On**:
+  - Create a Terraform module for deploying a VM with a storage account.
+  - Use the module in multiple environments (e.g., dev, prod).
+  - Share and version your module using a module registry or Git.
+- **Resources**:
+  - [Terraform Modules Documentation](https://www.terraform.io/docs/language/modules/index.html)
+
+#### **Day 33: Advanced Terraform Techniques**
+- **Learn**:
+  - Advanced Terraform features: workspaces, remote state, and data sources.
+  - Managing Terraform state files and locking.
+- **Hands-On**:
+  - Set up Terraform workspaces to manage multiple environments.
+  - Store your Terraform state file remotely in an Azure Storage account.
+  - Use Terraform data sources to reference existing infrastructure.
+- **Resources**:
+  - [Manage Infrastructure with Terraform](https://learn.hashicorp.com/collections/terraform/azure-get-started)
+
+#### **Day 34: Automating Deployments with Azure CLI**
+- **Learn**:
+  - Automating Azure resource management using Azure CLI commands.
+  - Scripting deployments and integrating CLI with shell scripts or PowerShell.
+- **Hands-On**:
+  - Write Azure CLI scripts to automate the deployment of a VM, storage account, and VNet.
+  - Schedule and run CLI scripts using Azure Automation or a CI/CD pipeline.
+- **Resources**:
+  - [Automate Azure Tasks with Azure CLI](https://docs.microsoft.com/en-us/learn/modules/introduction-to-azure-cli/)
+
+### **Weeks 5-6: Automation & Infrastructure as Code (IaC) (Continued)**
+
+#### **Day 35: Introduction to Azure DevOps**
+- **Learn**:
+  - Overview of Azure DevOps: Boards, Repos, Pipelines, Test Plans, and Artifacts.
+  - Understand the CI/CD pipeline and how it integrates with Azure services.
+- **Hands-On**:
+  - Set up an Azure DevOps project.
+  - Explore Azure Boards and create work items (tasks, bugs, etc.).
+  - Commit code to Azure Repos and explore version control.
+- **Resources**:
+  - [Azure DevOps Documentation](https://docs.microsoft.com/en-us/azure/devops/)
+
+#### **Day 36: Continuous Integration with Azure Pipelines**
+- **Learn**:
+  - Understand Continuous Integration (CI) and its role in DevOps.
+  - Creating and configuring build pipelines in Azure Pipelines.
+- **Hands-On**:
+  - Create a build pipeline to compile a simple application (e.g., a .NET Core app).
+  - Integrate unit tests into your pipeline.
+  - Trigger builds automatically on code commits.
+- **Resources**:
+  - [Set Up a CI Pipeline](https://docs.microsoft.com/en-us/learn/modules/create-a-build-pipeline/)
+
+#### **Day 37: Continuous Deployment with Azure Pipelines**
+- **Learn**:
+  - Continuous Deployment (CD): automating the release of applications.
+  - Configuring release pipelines for automated deployment to Azure.
+- **Hands-On**:
+  - Create a release pipeline to deploy a web app to Azure App Service.
+  - Implement deployment slots for staging and production environments.
+  - Set up approvals and gates for deployment.
+- **Resources**:
+  - [Create a Release Pipeline](https://docs.microsoft.com/en-us/learn/modules/create-release-pipeline/)
+
+#### **Day 38: Infrastructure Automation with Azure DevOps**
+- **Learn**:
+  - Automating infrastructure deployment using ARM templates and Terraform in Azure Pipelines.
+  - Managing infrastructure code in Azure Repos.
+- **Hands-On**:
+  - Integrate ARM template deployment into a pipeline.
+  - Set up a Terraform pipeline to provision Azure resources.
+  - Explore pipeline variables and secrets management.
+- **Resources**:
+  - [Automate Infrastructure Deployment with Azure DevOps](https://docs.microsoft.com/en-us/azure/devops/pipelines/ecosystems/terraform)
+
+#### **Day 39: Monitoring and Logging with Azure Monitor**
+- **Learn**:
+  - Overview of Azure Monitor: metrics, logs, and alerts.
+  - Understanding Application Insights for monitoring application performance.
+- **Hands-On**:
+  - Set up Azure Monitor to collect metrics and logs from a VM.
+  - Create alerts based on metrics (e.g., CPU usage).
+  - Integrate Application Insights into a web app to monitor performance.
+- **Resources**:
+  - [Monitor Your Resources with Azure Monitor](https://docs.microsoft.com/en-us/learn/modules/monitor-resources-azure-monitor/)
+
+#### **Day 40: Automating Responses with Azure Logic Apps**
+- **Learn**:
+  - Azure Logic Apps: automating workflows and integrating with external systems.
+  - Explore triggers, actions, and connectors.
+- **Hands-On**:
+  - Create a Logic App that triggers on a schedule to back up Azure Blob Storage.
+  - Integrate a Logic App with Azure Monitor to send alerts via email.
+  - Use connectors to automate tasks across different services (e.g., Office 365, Slack).
+- **Resources**:
+  - [Create Workflows with Azure Logic Apps](https://docs.microsoft.com/en-us/learn/modules/create-logic-apps/)
+
+#### **Day 41: Introduction to Azure Functions**
+- **Learn**:
+  - Azure Functions: serverless compute for running event-driven code.
+  - Understanding triggers, bindings, and scaling options.
+- **Hands-On**:
+  - Create an Azure Function using the Azure portal.
+  - Trigger the function via HTTP and timer events.
+  - Explore function bindings to integrate with Azure services (e.g., Blob Storage, Queue Storage).
+- **Resources**:
+  - [Develop Serverless Functions with Azure Functions](https://docs.microsoft.com/en-us/learn/modules/develop-app-with-azure-functions/)
+
+#### **Day 42: Integrating Azure Functions with DevOps Pipelines**
+- **Learn**:
+  - Automating the deployment of Azure Functions using Azure Pipelines.
+  - Continuous integration and deployment for serverless applications.
+- **Hands-On**:
+  - Create a CI/CD pipeline for an Azure Function app.
+  - Deploy the function automatically to Azure using the pipeline.
+  - Implement testing and monitoring for the Azure Function.
+- **Resources**:
+  - [Automate Azure Functions Deployment](https://docs.microsoft.com/en-us/azure/devops/pipelines/ecosystems/functions)
+
+#### **Day 43: Introduction to Azure Automation**
+- **Learn**:
+  - Azure Automation: automating tasks and processes with runbooks.
+  - Understanding different runbook types (Graphical, PowerShell, Python).
+- **Hands-On**:
+  - Create a PowerShell runbook in Azure Automation to manage VMs (e.g., start/stop).
+  - Schedule the runbook to run at specific intervals.
+  - Explore hybrid runbook workers to manage on-premises resources.
+- **Resources**:
+  - [Automate Management Tasks with Azure Automation](https://docs.microsoft.com/en-us/learn/modules/automate-tasks-with-azure-automation/)
+
+#### **Day 44: Implementing Desired State Configuration (DSC)**
+- **Learn**:
+  - Azure DSC: automating the configuration of Azure VMs.
+  - Writing and applying DSC configurations for infrastructure compliance.
+- **Hands-On**:
+  - Create and deploy a DSC configuration to ensure consistent VM settings.
+  - Monitor and report on DSC compliance using Azure Automation.
+  - Integrate DSC with Azure DevOps pipelines for continuous configuration.
+- **Resources**:
+  - [Manage Configuration with DSC](https://docs.microsoft.com/en-us/learn/modules/implement-dsc/)
+
+#### **Day 45: Review and Practical Lab**
+- **Task**:
+  - Review all automation and IaC concepts learned over the past two weeks.
+  - Implement a full CI/CD pipeline that deploys both application code and infrastructure to Azure using Terraform and ARM templates.
+- **Hands-On**:
+  - Design and deploy a complete cloud infrastructure using DevOps practices.
+  - Document the entire process, including IaC code and pipeline configurations.
+- **Resources**:
+  - [Azure DevOps Hands-On Labs](https://azuredevopslabs.com/)
+
+---
+
+### **Weeks 7-8: Advanced Azure Services**
+
+#### **Day 46: Introduction to Azure Kubernetes Service (AKS)**
+- **Learn**:
+  - Overview of Azure Kubernetes Service (AKS): managed Kubernetes on Azure.
+  - Understanding containers, Kubernetes basics, and AKS architecture.
+- **Hands-On**:
+  - Set up an AKS cluster using the Azure portal.
+  - Deploy a simple containerized application to AKS.
+  - Scale the application and manage pods using kubectl.
+- **Resources**:
+  - [Deploy and Manage Containers with AKS](https://docs.microsoft.com/en-us/learn/modules/deploy-to-aks/)
+
+#### **Day 47: Advanced AKS - Networking and Security**
+- **Learn**:
+  - Networking concepts in AKS: service types, ingress controllers, and load balancers.
+  - Securing your AKS cluster: RBAC, network policies, and Azure AD integration.
+- **Hands-On**:
+  - Configure an ingress controller for your AKS cluster.
+  - Implement network policies to restrict pod communication.
+  - Enable Azure AD integration for AKS RBAC.
+- **Resources**:
+  - [Secure Your AKS Cluster](https://docs.microsoft.com/en-us/learn/modules/secure-aks-cluster/)
+
+#### **Day 48: Monitoring and Scaling AKS**
+- **Learn**:
+  - Monitoring AKS with Azure Monitor and Container Insights.
+  - Autoscaling AKS clusters and applications based on demand.
+- **Hands-On**:
+  - Set up monitoring for your AKS cluster using Azure Monitor.
+  - Configure horizontal pod autoscaling for your applications.
+  - Test scaling scenarios and monitor performance.
+- **Resources**:
+  - [Monitor and Scale AKS](https://docs.microsoft.com/en-us/learn/modules/monitor-and-scale-aks/)
+
+#### **Day 49: Introduction to Azure App Services**
+- **Learn**:
+  - Azure App Services: PaaS offering for hosting web apps, RESTful APIs, and mobile backends.
+  - Overview of App Service plans, scaling, and deployment slots.
+- **Hands-On**:
+  - Deploy a web app using Azure App Service.
+  - Configure deployment slots for staging and production.
+  - Set up autoscaling based on CPU usage.
+- **Resources**:
+  - [Deploy a Web App to Azure App Service](https://docs.microsoft.com/en-us/learn/modules/deploy-web-app-service/)
+
+#### **Day 50: Integrating App Services with DevOps Pipelines**
+- **Learn**:
+  - Automating the deployment of web apps using Azure Pipelines.
+  - Continuous integration and deployment for App Services.
+- **Hands-On**:
+  - Set up a CI/CD pipeline to deploy a web app to Azure App Service.
+  - Implement blue-green deployment using deployment slots.
+  - Monitor and troubleshoot deployment issues.
+- **Resources**:
+  - [Deploy App Services with Azure DevOps](https://docs.microsoft.com/en-us/learn/modules/build-and-deploy-your-app/)
+
+### **Weeks 7-8: Advanced Azure Services (Continued)**
+
+#### **Day 51: Advanced Logic Apps Integration**
+- **Learn**:
+  - Advanced integration scenarios with Azure Logic Apps: connecting on-premises data, integrating with APIs, and using custom connectors.
+  - Handling complex workflows, conditions, loops, and error handling.
+- **Hands-On**:
+  - Create a Logic App to integrate with an on-premises SQL database using the On-premises Data Gateway.
+  - Use custom connectors to connect to an external API.
+  - Implement error handling and retry policies in your workflows.
+- **Resources**:
+  - [Advanced Logic Apps Scenarios](https://docs.microsoft.com/en-us/azure/logic-apps/logic-apps-overview)
+
+#### **Day 52: Introduction to Azure Event Grid**
+- **Learn**:
+  - Azure Event Grid: event routing service for real-time event distribution.
+  - Event-driven architectures and integration with Azure services.
+- **Hands-On**:
+  - Create an event-driven architecture using Azure Event Grid.
+  - Set up event subscriptions to trigger Azure Functions and Logic Apps.
+  - Explore filtering and routing options for events.
+- **Resources**:
+  - [Build Event-Driven Solutions with Event Grid](https://docs.microsoft.com/en-us/learn/modules/build-event-grid-solutions/)
+
+#### **Day 53: Introduction to Azure Service Bus**
+- **Learn**:
+  - Azure Service Bus: messaging service for reliable message queuing and brokering.
+  - Concepts: queues, topics, and subscriptions.
+- **Hands-On**:
+  - Create an Azure Service Bus namespace, queue, and topic.
+  - Send and receive messages using .NET SDK or Azure Functions.
+  - Explore message sessions, dead-lettering, and forwarding.
+- **Resources**:
+  - [Build Messaging Solutions with Azure Service Bus](https://docs.microsoft.com/en-us/learn/modules/implement-message-workflow-service-bus/)
+
+#### **Day 54: Integrating Azure Event Grid with Service Bus**
+- **Learn**:
+  - Combining Event Grid with Service Bus for advanced messaging scenarios.
+  - Building resilient and scalable event-driven architectures.
+- **Hands-On**:
+  - Create a workflow where Event Grid events are sent to a Service Bus queue or topic.
+  - Implement routing and filtering of events to specific Service Bus subscriptions.
+  - Monitor and troubleshoot the event flow and message processing.
+- **Resources**:
+  - [Event Grid and Service Bus Integration](https://docs.microsoft.com/en-us/azure/event-grid/event-grid-service-bus-integration)
+
+#### **Day 55: Introduction to Azure API Management**
+- **Learn**:
+  - Azure API Management: managing APIs across hybrid and multi-cloud environments.
+  - Key features: API gateway, developer portal, and analytics.
+- **Hands-On**:
+  - Create an API Management instance and publish an API.
+  - Define API policies for rate limiting, caching, and security.
+  - Explore the developer portal and test your API.
+- **Resources**:
+  - [Manage APIs with Azure API Management](https://docs.microsoft.com/en-us/learn/modules/intro-to-api-management/)
+
+#### **Day 56: Securing APIs with Azure API Management**
+- **Learn**:
+  - Implementing security in Azure API Management: OAuth 2.0, JWT validation, and IP filtering.
+  - Using policies to enforce security standards.
+- **Hands-On**:
+  - Configure OAuth 2.0 authentication for your APIs.
+  - Implement IP filtering and rate limiting policies.
+  - Use JWT validation to secure API access.
+- **Resources**:
+  - [Secure Your APIs with Azure API Management](https://docs.microsoft.com/en-us/azure/api-management/api-management-key-concepts)
+
+#### **Day 57: Monitoring and Analytics with Azure API Management**
+- **Learn**:
+  - Monitoring API performance and usage with Azure API Management analytics.
+  - Setting up alerts, reports, and integrating with Azure Monitor.
+- **Hands-On**:
+  - Enable monitoring and logging for your APIs in API Management.
+  - Create custom dashboards and alerts for API performance.
+  - Analyze API usage patterns and optimize performance.
+- **Resources**:
+  - [Monitor APIs with Azure API Management](https://docs.microsoft.com/en-us/azure/api-management/api-management-howto-metrics)
+
+#### **Day 58: Introduction to Azure Logic Apps Enterprise Integration**
+- **Learn**:
+  - Enterprise integration capabilities in Azure Logic Apps: B2B, EDI, and XML processing.
+  - Understanding integration accounts and schemas.
+- **Hands-On**:
+  - Set up an integration account in Azure Logic Apps.
+  - Create a Logic App that processes XML data and integrates with an EDI partner.
+  - Use maps and schemas for data transformation.
+- **Resources**:
+  - [Enterprise Integration with Logic Apps](https://docs.microsoft.com/en-us/azure/logic-apps/logic-apps-enterprise-integration-overview)
+
+#### **Day 59: Introduction to Azure Cognitive Services**
+- **Learn**:
+  - Azure Cognitive Services: pre-built APIs for vision, speech, language, and decision-making.
+  - Overview of key services: Computer Vision, Text Analytics, and Translator.
+- **Hands-On**:
+  - Create a Cognitive Services resource in Azure.
+  - Use the Computer Vision API to analyze and tag images.
+  - Implement text analytics for sentiment analysis and language detection.
+- **Resources**:
+  - [Introduction to Azure Cognitive Services](https://docs.microsoft.com/en-us/learn/modules/introduction-to-cognitive-services/)
+
+#### **Day 60: Building AI Solutions with Azure Cognitive Services**
+- **Learn**:
+  - Combining multiple Cognitive Services APIs to build intelligent applications.
+  - Integrating AI into existing applications using Azure SDKs.
+- **Hands-On**:
+  - Build an application that uses the Computer Vision API and Text Analytics API together.
+  - Explore other services like Speech to Text and Translator in a sample application.
+  - Deploy the application to Azure and test its capabilities.
+- **Resources**:
+  - [Build AI Solutions with Cognitive Services](https://docs.microsoft.com/en-us/learn/modules/create-ai-solutions-with-cognitive-services/)
+
+---
+
+### **Weeks 9-10: Advanced Networking and Security**
+
+#### **Day 61: Introduction to Azure Virtual WAN**
+- **Learn**:
+  - Azure Virtual WAN: unified hub-and-spoke architecture for network connectivity.
+  - Understanding Virtual Hubs, VPN, and ExpressRoute integration.
+- **Hands-On**:
+  - Set up a Virtual WAN with Virtual Hubs and connect to on-premises networks using VPN.
+  - Configure routing and security policies in the Virtual WAN.
+  - Test connectivity between different network segments.
+- **Resources**:
+  - [Implement a Virtual WAN with Azure](https://docs.microsoft.com/en-us/learn/modules/implement-virtual-wan/)
+
+#### **Day 62: Advanced Azure Networking - ExpressRoute**
+- **Learn**:
+  - Azure ExpressRoute: dedicated private network connection to Azure.
+  - Understanding circuit peering, routing, and redundancy options.
+- **Hands-On**:
+  - Set up an ExpressRoute circuit and configure peering with your Azure VNet.
+  - Implement routing between on-premises networks and Azure resources.
+  - Test failover and redundancy configurations.
+- **Resources**:
+  - [Configure and Use ExpressRoute](https://docs.microsoft.com/en-us/learn/modules/configure-and-use-expressroute/)
+
+#### **Day 63: Advanced Azure Networking - Load Balancing**
+- **Learn**:
+  - Advanced load balancing scenarios: Azure Load Balancer, Application Gateway, and Traffic Manager.
+  - Comparing layer 4 and layer 7 load balancing.
+- **Hands-On**:
+  - Configure a standard load balancer to distribute traffic to VMs.
+  - Set up Traffic Manager to route traffic based on geographical location.
+  - Implement SSL offloading and URL-based routing with Application Gateway.
+- **Resources**:
+  - [Load Balance Your Apps with Azure](https://docs.microsoft.com/en-us/learn/modules/load-balancing-applications/)
+
+#### **Day 64: Implementing Azure Network Security Groups (NSGs)**
+- **Learn**:
+  - Network Security Groups (NSGs): controlling inbound and outbound traffic in Azure VNets.
+  - Creating and managing NSG rules and associations.
+- **Hands-On**:
+  - Create NSGs and associate them with subnets and VMs.
+  - Define inbound and outbound security rules to control traffic.
+  - Monitor and troubleshoot NSG rules using Azure Monitor.
+- **Resources**:
+  - [Secure Your Network with NSGs](https://docs.microsoft.com/en-us/learn/modules/secure-and-isolate-with-nsg-and-service-endpoints/)
+
+#### **Day 65: Advanced Azure Security - DDoS Protection**
+- **Learn**:
+  - Azure DDoS Protection: protecting your applications from Distributed Denial of Service (DDoS) attacks.
+  - Understanding DDoS Protection Basic vs. Standard.
+- **Hands-On**:
+  - Enable Azure DDoS Protection Standard on a VNet.
+  - Simulate a DDoS attack and monitor the protection metrics.
+  - Review DDoS protection reports and alerts.
+- **Resources**:
+  - [Protect Your Applications from DDoS Attacks](https://docs.microsoft.com/en-us/learn/modules/protect-from-ddos-attacks/)
+
+#### **Day 66: Azure Firewall Premium**
+- **Learn**:
+  - Azure Firewall Premium: advanced threat protection for your network.
+  - Understanding TLS inspection, IDPS, and web filtering.
+- **Hands-On**:
+  - Deploy Azure Firewall Premium in your VNet.
+  - Configure TLS inspection and URL filtering for outbound traffic.
+  - Set up and test Intrusion Detection and Prevention
+
+### **Weeks 9-10: Advanced Networking and Security (Continued)**
+
+#### **Day 66: Azure Firewall Premium (Continued)**
+- **Hands-On**:
+  - Set up and test Intrusion Detection and Prevention (IDPS) rules.
+  - Monitor Azure Firewall logs and alerts using Azure Monitor.
+  - Test web filtering and TLS inspection with a simulated malicious site.
+- **Resources**:
+  - [Configure and Manage Azure Firewall Premium](https://docs.microsoft.com/en-us/azure/firewall/premium-features)
+
+#### **Day 67: Implementing Azure Private Link**
+- **Learn**:
+  - Azure Private Link: securing access to Azure services over a private network.
+  - Understanding Private Endpoints and Private Link Service.
+- **Hands-On**:
+  - Configure a Private Endpoint for an Azure PaaS service (e.g., Azure Storage).
+  - Test access to the service over the private network.
+  - Explore Private DNS zones and configure DNS resolution for the Private Endpoint.
+- **Resources**:
+  - [Secure Your Services with Azure Private Link](https://docs.microsoft.com/en-us/learn/modules/secure-virtual-network-private-link/)
+
+#### **Day 68: Advanced Network Security - Azure Bastion**
+- **Learn**:
+  - Azure Bastion: secure and seamless RDP and SSH access to VMs without public IP addresses.
+  - Understanding deployment scenarios and security benefits.
+- **Hands-On**:
+  - Deploy Azure Bastion in a VNet and connect to a VM securely.
+  - Test RDP and SSH access through the Azure portal using Azure Bastion.
+  - Monitor and audit Bastion access logs.
+- **Resources**:
+  - [Use Azure Bastion to Secure VM Access](https://docs.microsoft.com/en-us/learn/modules/secure-vm-access-with-azure-bastion/)
+
+#### **Day 69: Implementing Azure Sentinel for Security Monitoring**
+- **Learn**:
+  - Azure Sentinel: cloud-native Security Information and Event Management (SIEM) solution.
+  - Overview of data connectors, workbooks, and hunting queries.
+- **Hands-On**:
+  - Set up Azure Sentinel and connect it to your Azure resources.
+  - Create custom workbooks to visualize security data.
+  - Use hunting queries to identify potential security threats.
+- **Resources**:
+  - [Get Started with Azure Sentinel](https://docs.microsoft.com/en-us/learn/modules/intro-to-azure-sentinel/)
+
+#### **Day 70: Advanced Security - Azure Policy and Blueprints**
+- **Learn**:
+  - Azure Policy: enforcing organizational standards and assessing compliance.
+  - Azure Blueprints: orchestrating the deployment of resources with policies, templates, and role assignments.
+- **Hands-On**:
+  - Create and assign Azure policies to enforce resource tagging.
+  - Set up an Azure Blueprint to deploy a compliant environment with predefined policies and templates.
+  - Monitor compliance using Azure Policy insights.
+- **Resources**:
+  - [Implement Governance with Azure Policy and Blueprints](https://docs.microsoft.com/en-us/learn/modules/implement-governance/)
+
+---
+
+### **Weeks 11-12: Cloud Security and Governance**
+
+#### **Day 71: Introduction to Azure Key Vault**
+- **Learn**:
+  - Azure Key Vault: managing secrets, keys, and certificates securely.
+  - Understanding access policies and integrating with other Azure services.
+- **Hands-On**:
+  - Create a Key Vault and store secrets, keys, and certificates.
+  - Integrate Key Vault with an Azure Function or App Service to retrieve secrets securely.
+  - Implement access policies and monitor Key Vault usage.
+- **Resources**:
+  - [Manage Secrets with Azure Key Vault](https://docs.microsoft.com/en-us/learn/modules/manage-secrets-with-azure-key-vault/)
+
+#### **Day 72: Implementing Azure Managed Identities**
+- **Learn**:
+  - Azure Managed Identities: simplifying identity and access management for applications.
+  - Differences between system-assigned and user-assigned managed identities.
+- **Hands-On**:
+  - Enable a managed identity for an Azure VM or App Service.
+  - Use the managed identity to authenticate to Azure Key Vault or Azure SQL Database.
+  - Monitor and audit managed identity usage.
+- **Resources**:
+  - [Use Managed Identities in Azure](https://docs.microsoft.com/en-us/learn/modules/secure-a-cloud-native-app-with-managed-identities/)
+
+#### **Day 73: Securing Data with Azure Disk Encryption**
+- **Learn**:
+  - Azure Disk Encryption: protecting data at rest with encryption keys managed in Azure Key Vault.
+  - Understanding encryption types: server-side and client-side encryption.
+- **Hands-On**:
+  - Enable Azure Disk Encryption on a VM using Azure Key Vault.
+  - Test encrypted disk access and monitor encryption status.
+  - Implement and test key rotation in Azure Key Vault.
+- **Resources**:
+  - [Implement Azure Disk Encryption](https://docs.microsoft.com/en-us/learn/modules/encrypt-your-disks-with-azure-disk-encryption/)
+
+#### **Day 74: Introduction to Azure Security Center**
+- **Learn**:
+  - Azure Security Center: unified security management and advanced threat protection.
+  - Understanding security recommendations, secure score, and Just-In-Time VM access.
+- **Hands-On**:
+  - Enable Azure Security Center on your subscription.
+  - Review security recommendations and improve your secure score.
+  - Implement Just-In-Time (JIT) access for your VMs.
+- **Resources**:
+  - [Secure Your Azure Resources with Azure Security Center](https://docs.microsoft.com/en-us/learn/modules/secure-your-azure-resources-with-azure-security-center/)
+
+#### **Day 75: Implementing Role-Based Access Control (RBAC)**
+- **Learn**:
+  - Role-Based Access Control (RBAC): managing access to Azure resources based on roles.
+  - Understanding built-in roles, custom roles, and role assignments.
+- **Hands-On**:
+  - Create custom roles and assign them to users or groups in Azure AD.
+  - Implement least privilege access using RBAC.
+  - Audit role assignments and monitor access to resources.
+- **Resources**:
+  - [Control Access to Resources with RBAC](https://docs.microsoft.com/en-us/learn/modules/secure-azure-resources-with-rbac/)
+
+#### **Day 76: Advanced Security - Azure Privileged Identity Management (PIM)**
+- **Learn**:
+  - Azure PIM: managing, controlling, and monitoring access to important resources in Azure AD.
+  - Understanding just-in-time (JIT) access and role activation.
+- **Hands-On**:
+  - Enable Azure PIM and configure roles for JIT access.
+  - Activate a privileged role and monitor access activity.
+  - Review access history and audit reports.
+- **Resources**:
+  - [Manage Privileged Access with Azure PIM](https://docs.microsoft.com/en-us/learn/modules/manage-privileged-access/)
+
+#### **Day 77: Implementing Azure Information Protection (AIP)**
+- **Learn**:
+  - Azure Information Protection: protecting sensitive information through classification, labeling, and encryption.
+  - Understanding policies, labels, and rights management.
+- **Hands-On**:
+  - Create and publish an AIP policy in Azure.
+  - Apply labels to protect sensitive documents.
+  - Monitor and audit information protection activities.
+- **Resources**:
+  - [Protect Information with Azure Information Protection](https://docs.microsoft.com/en-us/learn/modules/protect-information-with-aip/)
+
+#### **Day 78: Implementing Azure Policy for Security**
+- **Learn**:
+  - Using Azure Policy to enforce security standards across your Azure environment.
+  - Understanding policy definitions, initiatives, and compliance states.
+- **Hands-On**:
+  - Create and assign security-focused policies (e.g., enforce HTTPS on App Services).
+  - Monitor compliance and remediate non-compliant resources.
+  - Create custom policies for specific security requirements.
+- **Resources**:
+  - [Enforce Security with Azure Policy](https://docs.microsoft.com/en-us/learn/modules/enforce-security-standards-with-azure-policy/)
+
+#### **Day 79: Implementing Azure Governance with Management Groups**
+- **Learn**:
+  - Azure Management Groups: organizing your subscriptions for governance and policy enforcement.
+  - Understanding management group hierarchy and inheritance.
+- **Hands-On**:
+  - Create management groups and organize your subscriptions.
+  - Assign policies and RBAC roles at the management group level.
+  - Monitor compliance and resource usage across management groups.
+- **Resources**:
+  - [Implement Governance with Azure Management Groups](https://docs.microsoft.com/en-us/learn/modules/implement-azure-management-groups/)
+
+#### **Day 80: Advanced Security - Azure Blueprints**
+- **Learn**:
+  - Azure Blueprints: deploying repeatable environments with security and compliance built-in.
+  - Understanding blueprints artifacts: policies, role assignments, and ARM templates.
+- **Hands-On**:
+  - Create and assign a blueprint to deploy a secure environment.
+  - Implement governance controls using blueprints.
+  - Monitor blueprint deployments and enforce compliance.
+- **Resources**:
+  - [Deploy Environments with Azure Blueprints](https://docs.microsoft.com/en-us/learn/modules/implement-azure-blueprints/)
+
+---
+
+### **Weeks 13-14: Hybrid Cloud and Advanced Scenarios**
+
+#### **Day 81: Introduction to Azure Arc**
+- **Learn**:
+  - Azure Arc: extending Azure management and services to any infrastructure (on-premises, multi-cloud, and edge).
+  - Understanding Azure Arc-enabled servers, Kubernetes, and data services.
+- **Hands-On**:
+  - Connect an on-premises server to Azure using Azure Arc.
+  - Manage and monitor Arc-enabled servers from the Azure portal.
+  - Deploy and manage Kubernetes clusters using Azure Arc.
+- **Resources**:
+  - [Manage Resources with Azure Arc](https://docs.microsoft.com/en-us/learn/modules/intro-to-azure-arc/)
+
+#### **Day 82: Hybrid Cloud Storage with Azure Stack Hub**
+- **Learn**:
+  - Azure Stack Hub: extending Azure services to on-premises environments.
+  - Understanding hybrid cloud scenarios and deployment models.
+- **Hands-On**:
+  - Deploy and configure Azure Stack Hub.
+  - Create and manage resources in Azure Stack Hub.
+  - Integrate Azure Stack Hub with Azure public cloud services.
+- **Resources**:
+  - [Extend Azure Services with Azure Stack Hub](https://docs.microsoft.com/en-us/learn/modules/azure-stack-hub-overview/)
+
+#### **Day 83: Managing Hybrid Identity with Azure AD Connect**
+- **Learn**:
+  - Azure AD Connect: synchronizing on-premises directories with Azure AD.
+  - Understanding synchronization, federation, and hybrid identity management.
+- **Hands-On**:
+  - Install and configure Azure AD Connect.
+  - Set up synchronization between on-premises AD and Azure AD.
+  - Manage and monitor synchronization tasks and health.
+- **Resources**:
+  - [Synchronize Directories with Azure AD Connect](https://docs.microsoft.com/en-us/learn/modules/sync-directories-with-azure-ad-connect/)
+
+#### **Day 84: Introduction to Azure Site Recovery**
+- **Learn**:
+  - Azure Site Recovery: disaster recovery and business continuity solutions.
+  - Understanding replication, failover, and recovery plans.
+- **Hands-On**:
+  - Set up Azure Site Recovery for VM replication.
+  - Configure and test failover and failback operations.
+  - Create and manage recovery plans.
+- **Resources**:
+  - [Implement Disaster Recovery with Azure Site Recovery](https://docs.microsoft.com/en-us/learn/modules/implement-azure-site-recovery/)
+
+#### **Day 85: Advanced Backup with Azure Backup**
+- **Learn**:
+  - Azure Backup: comprehensive backup solutions for Azure and on-premises workloads.
+  - Understanding backup policies, recovery services vaults, and long-term retention.
+- **Hands-On**:
+  - Configure backup policies and create backup jobs for VMs and databases.
+  - Test backup and restore operations.
+  - Implement long-term retention and manage backup data.
+- **Resources**:
+  - [Protect Your Data with Azure Backup](https://docs.microsoft.com/en-us/learn/modules/protect-data-with-azure-backup/)
+
+#### **Day 86: Implementing Azure Kubernetes Service (AKS)**
+- **Learn**:
+  - Azure Kubernetes Service (AKS): managed Kubernetes container orchestration service.
+  - Understanding AKS architecture, scaling, and security.
+- **Hands-On**:
+  - Deploy an AKS cluster and configure scaling options.
+  - Deploy and manage containerized applications in AKS.
+  - Monitor and troubleshoot AKS cluster health and performance.
+- **Resources**:
+  - [Deploy and Manage Containers with AKS](https://docs.microsoft.com/en-us/learn/modules/deploy-containers-with-aks/)
+
+#### **Day 87: Advanced Kubernetes Operations**
+- **Learn**:
+  - Advanced Kubernetes operations: network policies, persistent storage, and Helm charts.
+  - Understanding Kubernetes security best practices.
+- **Hands-On**:
+  - Implement network policies and persistent storage in AKS.
+  - Deploy applications using Helm charts.
+  - Secure your Kubernetes cluster and applications.
+- **Resources**:
+  - [Advanced Kubernetes Operations](https://docs.microsoft.com/en-us/learn/modules/advanced-kubernetes-operations/)
+
+#### **Day 88: Multi-Cloud Strategies and Management**
+- **Learn**:
+  - Multi-cloud strategies: managing and integrating services across different cloud providers.
+  - Understanding multi-cloud governance, cost management, and security.
+- **Hands-On**:
+  - Set up a multi-cloud environment using Azure Arc or other management tools.
+  - Implement policies and monitoring across multiple cloud providers.
+  - Explore cost management and optimization in a multi-cloud setup.
+- **Resources**:
+  - [Manage Multi-Cloud Environments](https://docs.microsoft.com/en-us/learn/modules/manage-multi-cloud-environments/)
+
+#### **Day 89: Introduction to Cloud-Native Development with Azure**
+- **Learn**:
+  - Cloud-native development: building and deploying applications using cloud-native principles.
+  - Understanding microservices, serverless, and containerized architectures.
+- **Hands-On**:
+  - Develop and deploy a cloud-native application using Azure App Services, Azure Functions, and Azure Container Instances.
+  - Implement continuous integration and deployment (CI/CD) pipelines.
+- **Resources**:
+  - [Build Cloud-Native Applications](https://docs.microsoft.com/en-us/learn/modules/intro-to-cloud-native-development/)
+
+#### **Day 90: DevOps and CI/CD with Azure DevOps**
+- **Learn**:
+  - Azure DevOps: end-to-end DevOps solution for building, testing, and deploying applications.
+  - Understanding pipelines, repositories, and artifacts.
+- **Hands-On**:
+  - Create and configure a CI/CD pipeline for an application using Azure DevOps.
+  - Implement build and release pipelines, and monitor pipeline performance.
+  - Explore deployment strategies such as blue-green and canary releases.
+- **Resources**:
+  - [Implement DevOps Practices with Azure DevOps](https://docs.microsoft.com/en-us/learn/modules/implement-devops-with-azure-devops/)
+
+#### **Day 91: Introduction to Azure Functions and Serverless Architectures**
+- **Learn**:
+  - Azure Functions: serverless compute service for executing code in response to events.
+  - Understanding function triggers, bindings, and deployment options.
+- **Hands-On**:
+  - Create and deploy Azure Functions with various triggers (HTTP, Timer, Queue).
+  - Implement bindings to Azure services such as Storage and Cosmos DB.
+  - Monitor and scale functions based on demand.
+- **Resources**:
+  - [Develop Serverless Applications with Azure Functions](https://docs.microsoft.com/en-us/learn/modules/intro-to-azure-functions/)
+
+#### **Day 92: Advanced Serverless Architectures**
+- **Learn**:
+  - Advanced serverless concepts: durable functions, dependency management, and performance optimization.
+  - Understanding integration with other Azure services.
+- **Hands-On**:
+  - Implement durable functions for long-running workflows and state management.
+  - Optimize performance and troubleshoot serverless applications.
+  - Integrate Azure Functions with Logic Apps and Event Grid.
+- **Resources**:
+  - [Advanced Serverless Development](https://docs.microsoft.com/en-us/learn/modules/advanced-azure-functions/)
+
+#### **Day 93: Building Scalable and Resilient Applications**
+- **Learn**:
+  - Building applications for scalability and resilience in Azure.
+  - Understanding patterns such as load balancing, auto-scaling, and fault tolerance.
+- **Hands-On**:
+  - Design and implement a scalable architecture for a web application using Azure services.
+  - Configure auto-scaling and load balancing for high availability.
+  - Test and validate the resilience of your application.
+- **Resources**:
+  - [Design Scalable and Resilient Applications](https://docs.microsoft.com/en-us/learn/modules/design-scalable-applications/)
+
+#### **Day 94: Introduction to Azure Resource Manager (ARM) Templates**
+- **Learn**:
+  - ARM templates: declarative way to deploy and manage Azure resources.
+  - Understanding template structure, parameters, and outputs.
+- **Hands-On**:
+  - Create and deploy an ARM template to provision a set of resources.
+  - Use nested templates and linked templates for complex deployments.
+  - Validate and troubleshoot ARM templates.
+- **Resources**:
+  - [Deploy Resources with ARM Templates](https://docs.microsoft.com/en-us/learn/modules/deploy-resources-using-arm/)
+
+#### **Day 95: Advanced ARM Templates and Bicep**
+- **Learn**:
+  - Advanced ARM template features: deployment scripts, conditional deployments, and deployment history.
+  - Introduction to Bicep: an alternative to JSON-based ARM templates.
+- **Hands-On**:
+  - Implement advanced ARM template features such as deployment scripts and conditions.
+  - Convert an ARM template to Bicep and deploy using Bicep.
+  - Explore Bicep syntax and best practices.
+- **Resources**:
+  - [Advanced ARM Templates and Bicep](https://docs.microsoft.com/en-us/learn/modules/advanced-arm-templates/)
+
+#### **Day 96: Managing Costs and Budgets in Azure**
+- **Learn**:
+  - Azure Cost Management and Billing: tracking, analyzing, and managing cloud costs.
+  - Understanding cost allocation, budgeting, and cost optimization strategies.
+- **Hands-On**:
+  - Set up cost management and budgeting in Azure.
+  - Analyze spending patterns and identify cost-saving opportunities.
+  - Implement cost alerts and recommendations for optimization.
+- **Resources**:
+  - [Manage Costs and Budgets in Azure](https://docs.microsoft.com/en-us/learn/modules/manage-costs-and-budgets/)
+
+#### **Day 97: Cloud Security Best Practices**
+- **Learn**:
+  - Cloud security best practices: identity management, data protection, and threat detection.
+  - Understanding
+
+ the shared responsibility model in cloud security.
+- **Hands-On**:
+  - Implement security best practices across your Azure environment.
+  - Use Azure Security Center and Azure Sentinel for threat detection and response.
+  - Review and update your security policies and configurations.
+- **Resources**:
+  - [Implement Cloud Security Best Practices](https://docs.microsoft.com/en-us/learn/modules/implement-cloud-security-best-practices/)
+
+#### **Day 98: Preparing for Azure Certification Exams**
+- **Learn**:
+  - Overview of Azure certification paths: fundamentals, associate, and expert levels.
+  - Understanding exam objectives and preparation strategies.
+- **Hands-On**:
+  - Review exam guides and practice tests for relevant Azure certifications.
+  - Identify and address knowledge gaps and areas for improvement.
+  - Take practice exams and review detailed explanations for answers.
+- **Resources**:
+  - [Azure Certification Guide](https://docs.microsoft.com/en-us/learn/certifications/)
+
+#### **Day 99: Final Project - Designing and Deploying a Cloud Solution**
+- **Hands-On**:
+  - Design and deploy a comprehensive cloud solution based on a real-world scenario.
+  - Incorporate various Azure services and features you've learned throughout the challenge.
+  - Document your architecture, deployment steps, and configurations.
+- **Resources**:
+  - [Azure Architecture Center](https://docs.microsoft.com/en-us/azure/architecture/)
+
+#### **Day 100: Review and Reflect**
+- **Review**:
+  - Reflect on your learning journey and accomplishments.
+  - Identify areas for further learning and improvement.
+  - Update your resume and LinkedIn profile with new skills and experiences.
+- **Hands-On**:
+  - Complete a self-assessment of your cloud skills and knowledge.
+  - Create a portfolio or case study to showcase your cloud projects and achievements.
+- **Resources**:
+  - [Cloud Skills Self-Assessment](https://docs.microsoft.com/en-us/learn/certifications/self-assessment/)
+
+---
+
+This roadmap provides a structured plan to gain practical expertise in cloud engineering, including Azure and relevant technologies like Jenkins, Terraform, and Kubernetes. Adjust the plan as needed based on your learning pace and interests. Good luck with your 100-day cloud challenge!
